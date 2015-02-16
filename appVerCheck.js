@@ -1,3 +1,10 @@
+/*
+ *
+ * Copyright (c) 2015 Makoto Tanaka
+ * Date: 2015-02-16 17:34:21 -0500 (Mon, 16 Feb 2015)
+ *
+ */
+
 var app = {};
 app.util = {};
 

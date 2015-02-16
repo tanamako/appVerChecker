@@ -25,12 +25,11 @@ app.constant = (function() {
  *
  **/
 
-app.util.pecollyAppVersionCheck = function(appVer){
+app.util.appVersionCheck = function(appVer){
   var ua  = window.navigator.userAgent,
       m   = ua.match(/\(appName;([\d\.]+)/),
       ver =  m[1];
 
-  // ペコリのアプリか否か
   if(ua.indexOf(app.constant.appName.name) != -1){
     var baseVer      = appVer.split('.'),
         arr          = ver.split('.'),
